@@ -11,7 +11,7 @@ import SwiftUI
 struct ServicemanAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OrdersView()
         }
     }
 }

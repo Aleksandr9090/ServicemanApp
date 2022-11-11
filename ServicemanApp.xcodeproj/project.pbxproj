@@ -8,19 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		1FD1A9F8291D7219008DE47E /* ServicemanAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1A9F7291D7219008DE47E /* ServicemanAppApp.swift */; };
-		1FD1A9FA291D7219008DE47E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1A9F9291D7219008DE47E /* ContentView.swift */; };
+		1FD1A9FA291D7219008DE47E /* OrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1A9F9291D7219008DE47E /* OrdersView.swift */; };
 		1FD1A9FC291D721B008DE47E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD1A9FB291D721B008DE47E /* Assets.xcassets */; };
 		1FD1A9FF291D721B008DE47E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD1A9FE291D721B008DE47E /* Preview Assets.xcassets */; };
 		1FD1AA06291D7270008DE47E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1AA05291D7270008DE47E /* Order.swift */; };
+		1FD1AA08291D7B62008DE47E /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1AA07291D7B62008DE47E /* StorageManager.swift */; };
+		1FD1AA0B291D7D96008DE47E /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1AA09291D7D96008DE47E /* CoreData.xcdatamodeld */; };
+		1FD1AA0D291D89A1008DE47E /* AddOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1AA0C291D89A1008DE47E /* AddOrderView.swift */; };
+		1FD1AA0F291E3D98008DE47E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1AA0E291E3D98008DE47E /* ContentView.swift */; };
+		1FD1AA11291E4114008DE47E /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1AA10291E4114008DE47E /* StatisticsView.swift */; };
+		1FD1AA13291E4134008DE47E /* СhatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1AA12291E4134008DE47E /* СhatsView.swift */; };
+		1FD1AA15291E4489008DE47E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1AA14291E4489008DE47E /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1FD1A9F4291D7219008DE47E /* ServicemanApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServicemanApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD1A9F7291D7219008DE47E /* ServicemanAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicemanAppApp.swift; sourceTree = "<group>"; };
-		1FD1A9F9291D7219008DE47E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1FD1A9F9291D7219008DE47E /* OrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersView.swift; sourceTree = "<group>"; };
 		1FD1A9FB291D721B008DE47E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FD1A9FE291D721B008DE47E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1FD1AA05291D7270008DE47E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		1FD1AA07291D7B62008DE47E /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		1FD1AA0A291D7D96008DE47E /* Order.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Order.xcdatamodel; sourceTree = "<group>"; };
+		1FD1AA0C291D89A1008DE47E /* AddOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderView.swift; sourceTree = "<group>"; };
+		1FD1AA0E291E3D98008DE47E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1FD1AA10291E4114008DE47E /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		1FD1AA12291E4134008DE47E /* СhatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СhatsView.swift"; sourceTree = "<group>"; };
+		1FD1AA14291E4489008DE47E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,11 +67,18 @@
 		1FD1A9F6291D7219008DE47E /* ServicemanApp */ = {
 			isa = PBXGroup;
 			children = (
+				1FD1AA0E291E3D98008DE47E /* ContentView.swift */,
 				1FD1A9F7291D7219008DE47E /* ServicemanAppApp.swift */,
-				1FD1A9F9291D7219008DE47E /* ContentView.swift */,
+				1FD1A9F9291D7219008DE47E /* OrdersView.swift */,
 				1FD1A9FB291D721B008DE47E /* Assets.xcassets */,
 				1FD1A9FD291D721B008DE47E /* Preview Content */,
 				1FD1AA05291D7270008DE47E /* Order.swift */,
+				1FD1AA09291D7D96008DE47E /* CoreData.xcdatamodeld */,
+				1FD1AA07291D7B62008DE47E /* StorageManager.swift */,
+				1FD1AA0C291D89A1008DE47E /* AddOrderView.swift */,
+				1FD1AA10291E4114008DE47E /* StatisticsView.swift */,
+				1FD1AA12291E4134008DE47E /* СhatsView.swift */,
+				1FD1AA14291E4489008DE47E /* SettingsView.swift */,
 			);
 			path = ServicemanApp;
 			sourceTree = "<group>";
@@ -141,8 +162,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FD1AA06291D7270008DE47E /* Order.swift in Sources */,
-				1FD1A9FA291D7219008DE47E /* ContentView.swift in Sources */,
+				1FD1A9FA291D7219008DE47E /* OrdersView.swift in Sources */,
+				1FD1AA0F291E3D98008DE47E /* ContentView.swift in Sources */,
+				1FD1AA13291E4134008DE47E /* СhatsView.swift in Sources */,
 				1FD1A9F8291D7219008DE47E /* ServicemanAppApp.swift in Sources */,
+				1FD1AA15291E4489008DE47E /* SettingsView.swift in Sources */,
+				1FD1AA0D291D89A1008DE47E /* AddOrderView.swift in Sources */,
+				1FD1AA11291E4114008DE47E /* StatisticsView.swift in Sources */,
+				1FD1AA08291D7B62008DE47E /* StorageManager.swift in Sources */,
+				1FD1AA0B291D7D96008DE47E /* CoreData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +373,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1FD1AA09291D7D96008DE47E /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1FD1AA0A291D7D96008DE47E /* Order.xcdatamodel */,
+			);
+			currentVersion = 1FD1AA0A291D7D96008DE47E /* Order.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1FD1A9EC291D7219008DE47E /* Project object */;
 }
